@@ -28,7 +28,7 @@ return res.json(req.file);
 //listening to the port
 app.listen("3000",function(err){
   if(err){
-    console.log("Error!!");
+    console.log("Error!! in connecting");
     }
     else{
       console.log("Connected to the port 3000!");
